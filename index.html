@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!DOCTYPE html>
+    <html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Caixa de Aviso</title>
 
-    <link rel="icon" type="image/x-icon" href = "image/favicon.ico">
+        <!--Javascript simples com um botão que abre uma caixa de aviso-->
+        <script>
+            function mostrarAviso() {
+                alert("teste");
+            }
+        </script>
 
-    <title>Menu</title>
+    </head>
 
-</head>
 <body>
 
     <nav>
@@ -24,12 +30,15 @@
     <hr>
 
     <!--Inserindo uma lista simples e um marcador --> 
+    
+    <button onclick="mostrarAviso()">Clique aqui</button>
+
     <ol>
         <li>Nome</li>
         <li>Telefone</li>
         <li>Endereço</li>
         <li>País</li>
-        </ol>
+    </ol>
 
     <p>
         Olá, Mundo!
